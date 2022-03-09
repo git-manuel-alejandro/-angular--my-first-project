@@ -1,0 +1,11 @@
+<p>{{nombre}}</p>
+<p>Edad : {{ edad }} ({{ edad < 18 ? 'Menor de edad' : 'Mayor de edad' }})</p>
+        <p>Empresa : {{ empresa.value }}</p>
+
+        <br>
+
+        <input type="checkbox" name="" id="" (click)="setusuarioRegistrado()">
+        {{ textoRegistrado }}
+        <br>
+
+        <input type="text" name="" id="" #empresa (keyup)="0">
